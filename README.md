@@ -1,0 +1,2 @@
+# Direct State Variable Modification in React
+This repository demonstrates a common mistake in React: directly modifying state variables instead of using the `setState` function. Directly modifying state variables will not trigger a re-render, leading to unexpected behavior. The solution shows the correct method of updating state using `useState`'s setter function. 
